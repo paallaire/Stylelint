@@ -1,0 +1,30 @@
+{
+  "name": "stylelint",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "stylelint": "stylelint \"example.scss\" --syntax scss --fix || echo \"=== lint failed ===\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paallaire/Stylelint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paallaire/Stylelint/issues"
+  },
+  "homepage": "https://github.com/paallaire/Stylelint#readme",
+  "devDependencies": {
+    "postcss-cli": "^5.0.0",
+    "postcss-reporter": "^5.0.0",
+    "postcss-scss": "^1.0.4",
+    "postcss-sorting": "^3.1.0",
+    "stylelint": "^9.1.3",
+    "stylelint-config-sass-guidelines": "^5.0.0",
+    "stylelint-order": "^0.8.1",
+    "stylelint-scss": "^3.0.1"
+  },
+  "dependencies": {}
+}
